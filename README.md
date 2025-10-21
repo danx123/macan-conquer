@@ -41,11 +41,38 @@ The application displays:
 ---
 
 ## 📸 Screenshot
-<img width="487" height="698" alt="Screenshot 2025-10-09 135312" src="https://github.com/user-attachments/assets/089c835f-7aa7-47e3-99ae-1e3d5925d2dc" />
-<img width="520" height="710" alt="Screenshot 2025-10-09 141017" src="https://github.com/user-attachments/assets/e4fda4a0-7ca1-4d20-9800-9a64f92f2bcb" />
-<img width="598" height="529" alt="Screenshot 2025-10-09 141000" src="https://github.com/user-attachments/assets/a5b9f6a6-97cf-4700-9ec8-1becfb243fb4" />
+<img width="852" height="632" alt="Screenshot 2025-10-22 020535" src="https://github.com/user-attachments/assets/1c1cf200-f977-40e4-afaf-6a4dd4e0f9d1" />
+<img width="1080" height="1920" alt="macan-conquer-v3" src="https://github.com/user-attachments/assets/fbf2b3c4-fd74-4922-9142-bd7a4e402061" />
 
 
+
+---
+📝 Changelog v3.0.0
+- System Information (Enhanced): The "System Information" dialog now also displays real-time disk (C:) usage, in addition to OS, CPU, RAM, and Uptime.
+
+- New Group: Network Repair: Added a new group specifically for fixing network problems.
+
+- Flush DNS Cache: Clears the DNS cache (very useful if a website is inaccessible).
+
+- Reset TCP/IP: Resets the TCP/IP stack to default settings.
+
+- Reset Winsock: Fixes connectivity issues caused by Winsock catalog corruption.
+
+- New Group: Advanced Tools & Shortcuts: Renamed and expanded "Advanced Boot" group:
+
+Reboot to Advanced Options: Restarts the computer directly to the advanced startup menu (recovery mode).
+
+- Event Viewer: Shortcut to open Event Viewer.
+
+- Device Manager: Shortcut to open Device Manager.
+
+- Services: Shortcut to open the Services console.
+
+- Additional Features:
+Disk Cleanup: Added a shortcut to open Windows' built-in Disk Cleanup in the "System Cleanup" group.
+File Menu (Enhanced): Added "Log Off" and "Hibernate" options to the File menu, in addition to Restart and Shutdown.
+
+---
 
 
 ## 🧠 Technologies Used
