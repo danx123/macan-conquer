@@ -41,36 +41,30 @@ The application displays:
 ---
 
 ## 📸 Screenshot
-<img width="852" height="632" alt="Screenshot 2025-10-22 020535" src="https://github.com/user-attachments/assets/1c1cf200-f977-40e4-afaf-6a4dd4e0f9d1" />
-<img width="1080" height="1920" alt="macan-conquer-v3" src="https://github.com/user-attachments/assets/fbf2b3c4-fd74-4922-9142-bd7a4e402061" />
-
-
+<img width="1080" height="1920" alt="post-github-macan-conquer" src="https://github.com/user-attachments/assets/78c450aa-dea6-4e50-b8ca-2d9b6a10d35c" />
 
 ---
-📝 Changelog v3.0.0
-- System Information (Enhanced): The "System Information" dialog now also displays real-time disk (C:) usage, in addition to OS, CPU, RAM, and Uptime.
+📝 Changelog v3.5.0
 
-- New Group: Network Repair: Added a new group specifically for fixing network problems.
+🚀 New Features & Capabilities
+Introduced "Advanced System Tweaks" Module
+A new functional group has been added, providing direct access to common performance and service tweaks:
 
-- Flush DNS Cache: Clears the DNS cache (very useful if a website is inaccessible).
+- Disable Superfetch/SysMain: Implemented a function to safely stop and disable the SysMain (formerly Superfetch) service to mitigate high disk/RAM usage on specific systems.
+- Disable Windows Search: Provides a function to stop and disable the WSearch (Windows Search) service, addressing indexing issues that cause constant CPU/disk utilization.
+- Cleanup Driver Store (DISM /ResetBase): Integrated an advanced DISM function (/StartComponentCleanup /ResetBase) to purge superseded drivers and components from the Component Store (WinSxS), which can result in significant disk space recovery.
 
-- Reset TCP/IP: Resets the TCP/IP stack to default settings.
+✨ UI/UX Enhancements
+- Upgraded System Information Dashboard
+The "System Information" dialog has been overhauled for superior data visualization:
+Dynamic Progress Bars: Static text labels for CPU, RAM, and Disk (C:) utilization have been replaced with real-time, dynamic QProgressBar widgets.
+Enhanced Data Readability: The RAM and Disk progress bars now display rich contextual information, such as (Used / Total GB), in addition to the percentage value.
+Visual Consistency: The new progress bar styling has been fully integrated into the application's dark theme for a seamless and professional appearance.
 
-- Reset Winsock: Fixes connectivity issues caused by Winsock catalog corruption.
-
-- New Group: Advanced Tools & Shortcuts: Renamed and expanded "Advanced Boot" group:
-
-Reboot to Advanced Options: Restarts the computer directly to the advanced startup menu (recovery mode).
-
-- Event Viewer: Shortcut to open Event Viewer.
-
-- Device Manager: Shortcut to open Device Manager.
-
-- Services: Shortcut to open the Services console.
-
-- Additional Features:
-Disk Cleanup: Added a shortcut to open Windows' built-in Disk Cleanup in the "System Cleanup" group.
-File Menu (Enhanced): Added "Log Off" and "Hibernate" options to the File menu, in addition to Restart and Shutdown.
+- M-zS Documentation & Miscellaneous
+Updated Help Content: The internal documentation ("Help Content") has been revised to reflect the addition of the "Advanced System Tweaks" module, including descriptions and warnings for each new function.
+Dependency Management: The QProgressBar import was added to support the new dashboard UI.
+Code Refactoring: The update logic within the SystemInfoDialog was refactored to populate the QProgressBar data structures instead of the previous QLabel text.
 
 ---
 
