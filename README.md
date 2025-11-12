@@ -41,30 +41,15 @@ The application displays:
 ---
 
 ## 📸 Screenshot
-<img width="1080" height="1920" alt="post-github-macan-conquer" src="https://github.com/user-attachments/assets/78c450aa-dea6-4e50-b8ca-2d9b6a10d35c" />
+<img width="1080" height="1920" alt="macan-conquer-v380" src="https://github.com/user-attachments/assets/625c4841-d8f2-4096-bff9-55d305101721" />
+
 
 ---
-📝 Changelog v3.5.0
+📝 Changelog v3.8.0
 
-🚀 New Features & Capabilities
-Introduced "Advanced System Tweaks" Module
-A new functional group has been added, providing direct access to common performance and service tweaks:
-
-- Disable Superfetch/SysMain: Implemented a function to safely stop and disable the SysMain (formerly Superfetch) service to mitigate high disk/RAM usage on specific systems.
-- Disable Windows Search: Provides a function to stop and disable the WSearch (Windows Search) service, addressing indexing issues that cause constant CPU/disk utilization.
-- Cleanup Driver Store (DISM /ResetBase): Integrated an advanced DISM function (/StartComponentCleanup /ResetBase) to purge superseded drivers and components from the Component Store (WinSxS), which can result in significant disk space recovery.
-
-✨ UI/UX Enhancements
-- Upgraded System Information Dashboard
-The "System Information" dialog has been overhauled for superior data visualization:
-Dynamic Progress Bars: Static text labels for CPU, RAM, and Disk (C:) utilization have been replaced with real-time, dynamic QProgressBar widgets.
-Enhanced Data Readability: The RAM and Disk progress bars now display rich contextual information, such as (Used / Total GB), in addition to the percentage value.
-Visual Consistency: The new progress bar styling has been fully integrated into the application's dark theme for a seamless and professional appearance.
-
-- M-zS Documentation & Miscellaneous
-Updated Help Content: The internal documentation ("Help Content") has been revised to reflect the addition of the "Advanced System Tweaks" module, including descriptions and warnings for each new function.
-Dependency Management: The QProgressBar import was added to support the new dashboard UI.
-Code Refactoring: The update logic within the SystemInfoDialog was refactored to populate the QProgressBar data structures instead of the previous QLabel text.
+- Added Disable Windows Defender
+- Added Enable Windows Defender
+- Added SVG Icon to each button
 
 ---
 
