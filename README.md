@@ -45,11 +45,12 @@ The application displays:
 
 
 ---
-📝 Changelog v3.8.0
+📝 Changelog v4.2.0
 
-- Added Disable Windows Defender
-- Added Enable Windows Defender
-- Added SVG Icon to each button
+- Added Group Policy
+- Added Create System Restore Point
+- Added Classic Control Panel
+- Added User Accounts (Netplwiz)
 
 ---
 
