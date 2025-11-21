@@ -45,13 +45,8 @@ The application displays:
 
 
 ---
-📝 Changelog v4.2.0
-
-- Added Group Policy
-- Added Create System Restore Point
-- Added Classic Control Panel
-- Added User Accounts (Netplwiz)
-
+📝 Changelog v4.4.0
+- Update Framework
 ---
 
 
