@@ -45,8 +45,8 @@ The application displays:
 
 
 ---
-📝 Changelog v4.4.0
-- Update Framework
+📝 Changelog v4.5.0
+- Fixed UI Layout
 ---
 
 
