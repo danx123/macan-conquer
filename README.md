@@ -41,12 +41,8 @@ The application displays:
 ---
 
 ## 📸 Screenshot
-<img width="856" height="636" alt="Screenshot 2026-02-03 201716" src="https://github.com/user-attachments/assets/0674665d-f51a-488b-9fa8-e351a4a3e7b9" />
+<img width="1096" height="752" alt="macan-conquer-v560" src="https://github.com/user-attachments/assets/95523990-ffaa-4e06-9d73-bf301ba6e3f1" />
 
-
----
-📝 Changelog v5.5.0
-- Update Framework
 ---
 
 
