@@ -6,6 +6,11 @@ Developed with Python and PySide6, it features a modern interface with Administr
 
 ---
 
+<img width="1366" height="768" alt="macan conquer" src="https://github.com/user-attachments/assets/626039cb-7ac7-47a5-9f83-aabf461417c2" />
+
+
+---
+
 ## ✨ Key Features
 
 ### 🧩 System Repair & Integrity
@@ -39,12 +44,6 @@ The application displays:
 - Menu bar with File, Help, and About options
 
 ---
-
-## 📸 Screenshot
-<img width="1096" height="752" alt="macan-conquer-v560" src="https://github.com/user-attachments/assets/95523990-ffaa-4e06-9d73-bf301ba6e3f1" />
-
----
-
 
 ## 🧠 Technologies Used
 - Python 3.9+
