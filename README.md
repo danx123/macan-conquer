@@ -6,7 +6,8 @@ Developed with Python and PySide6, it features a modern interface with Administr
 
 ---
 
-<img width="1366" height="768" alt="macan conquer" src="https://github.com/user-attachments/assets/626039cb-7ac7-47a5-9f83-aabf461417c2" />
+<img width="1035" height="711" alt="image" src="https://github.com/user-attachments/assets/f68e5506-777f-4049-95b7-b7b70df440f1" />
+
 
 
 ---
