@@ -5,8 +5,8 @@ Macan Conquer is a professional toolkit for maintenance, diagnostics, and repair
 Developed with Python and PySide6, it features a modern interface with Administrator-level functionality.
 
 ---
+<img width="1034" height="714" alt="image" src="https://github.com/user-attachments/assets/8320240e-c8e2-4bc2-a6d1-b080242ded6d" />
 
-<img width="1035" height="711" alt="image" src="https://github.com/user-attachments/assets/f68e5506-777f-4049-95b7-b7b70df440f1" />
 
 
 
