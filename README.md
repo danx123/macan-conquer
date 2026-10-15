@@ -1,5 +1,9 @@
 # 🦁 Macan Conquer - Professional Windows Toolkit
 
+![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Total Downloads](https://img.shields.io/github/downloads/danx123/macan-conquer/total?style=flat-square&color=E8FF00&label=downloads)
+
 Macan Conquer is a professional toolkit for maintenance, diagnostics, and repair of Windows 10/11 operating systems.
 
 Developed with Python and PySide6, it features a modern interface with Administrator-level functionality.
